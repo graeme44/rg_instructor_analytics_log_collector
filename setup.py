@@ -17,6 +17,7 @@ setup(
     ],
     requires=[],
     packages=["rg_instructor_analytics_log_collector"],
+    entry_points={"tutor.plugin.v0": ["myplugin = myplugin.plugin"]},
     description='Open edX log collector',
     long_description=README,
 )
